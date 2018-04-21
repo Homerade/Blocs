@@ -1,0 +1,52 @@
+<div class='pageWrapper'>	
+
+	<div id='bgImgContainer'>
+		<img id='home_mastBgImg' src='img/masses.jpg'/>
+	</div>
+
+	<div id='home_appIdentification'>
+		<!-- <h1 id='appName'>{{ name }}</h1> -->
+
+		
+	</div>
+
+	<div id='home_siteSearch'>
+		
+		<!-- <h2 id='siteSearchTitle'>Search by</h2> -->
+		
+
+			<form id='home_locationBox' class='searchBar' method='get' action='/calendar'>
+				<h3>LOCATION</h3>
+				<br>
+				<input class='searchField' name='meetZip' type='text' placeholder='Enter zip'><button id='zipGo'>Go</button></input>
+			</form>	
+			
+			<form id='home_issueBox' class='searchBar' method='get' action='/calendar'>
+				<h3>ISSUE</h3>
+				<br>
+				<input class='searchField' name='issueCat' type='text' placeholder='Enter or browse issues'><button id='issueGo'>Go</button></input>				
+			</form>
+			
+			<form id='home_groupBox' class='searchBar' method='get' action='/calendar'>
+				<h3>GROUP</h3>
+				<br>
+				<input class='searchField' name='eventGroup' type='text' placeholder='Enter or browse groups'></input>
+				<button id='groupGo'>Go</button>	
+			</form>
+	</div>	
+
+	<div id='home_sitePages'>		
+		<div class='blockNav' id='home_calendar'>
+			<a href='/calendar'><img class='blockNavBgImg' id='cal_image'src="img/bw_cal.png"/>
+			<p>View Calendar</p></a>
+		</div>
+		<div class='blockNav' id='home_addEvent'>
+			<a href='/addevent'><img class='blockNavBgImg' id='event_image'src='img/megaphone.png'/>
+			<p>Add an Event</p></a>
+		</div>
+	</div>	
+
+</div>		
+
+<script type='text/javascript' src='/scripts/jquery-3.2.1.min.js'></script>
+<script type='text/javascript' src='/scripts/eventSearch.js'></script>
