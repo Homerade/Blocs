@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 #Mongo credentials
 credentials.js
 
+=======
+>>>>>>> 662f981ee4c23ceac9938986e1520717d1ba2e5c
 # Logs
 logs
 *.log
@@ -58,4 +61,9 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
+<<<<<<< HEAD
 .env
+=======
+.env
+
+>>>>>>> 662f981ee4c23ceac9938986e1520717d1ba2e5c
